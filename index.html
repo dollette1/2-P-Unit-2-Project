@@ -1,6 +1,6 @@
 <!--Unit 2 Project
 Requirements
-[  ] Two Element Selectors
+[  ] Two Element Selectors yes
 [  ] Two ID Selectors
 [  ] Two Class Selectors
 [  ] Three Images
@@ -39,11 +39,19 @@ Select ONE Additional Feature to Add
         #biggo{
             text-align: center;
         }
+
+        #title{
+            animation:changeColor 14s infinite
+            alternate;
+        }
+        @keyframes changeColor{
+            0% {color: rgb(50,147,168)}
+        }
        </style>
     </head>
     <body>
 
-<h1>Natasha Land</h1>
+<h1 id="title">Natasha Land</h1>
 <img id=biggo src="https://thumb.ac-illust.com/a5/a5a9f8a0aab52143685fca9c9e1634ab_t.jpeg" width="700">
 <h3>Why <em>you</em> should travel to Natasha Land</h3>
         <p>
